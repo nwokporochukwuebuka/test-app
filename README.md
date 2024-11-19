@@ -97,3 +97,5 @@ I chose Expo for this project because it simplifies setup and provides essential
    - Enhancing test coverage with unit tests for custom components and integration tests to ensure the custom-built bottom sheet and other UI elements behave correctly under various conditions.
 
 In summary, the approach focused on modular and custom-built solutions to maintain a lightweight app while ensuring flexibility and control over UI/UX elements. Challenges included creating custom components from scratch and ensuring smooth performance. Improvements could include optimizing state management and leveraging libraries that enhance animation performance without adding significant weight.
+
+Here is a link to the [Google Drive](https://drive.google.com/drive/folders/1EtjvhLocdhAjr2mKBKb3uKwE-pvkrrIL?usp=sharing) containing the `.apk` and `.aab` file
