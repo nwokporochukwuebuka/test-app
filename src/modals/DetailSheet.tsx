@@ -86,6 +86,7 @@ const DetailSheet = forwardRef<BottomSheetMethods, DetailSheetProps>(
         <Card
           leftText="Appointing the planning committee"
           rightText="1.00 - 1.30 PM"
+          backgroundColor="#B3FC6A"
         />
 
         <Card
@@ -93,6 +94,7 @@ const DetailSheet = forwardRef<BottomSheetMethods, DetailSheetProps>(
           rightText="1.00 - 1.45 PM"
           containerGap={width * 0.08}
           textWidth={width * 0.6}
+          backgroundColor={colors.BACKGROUND_COLOR_VARIANT.GREY}
         />
 
         <Card
@@ -100,6 +102,7 @@ const DetailSheet = forwardRef<BottomSheetMethods, DetailSheetProps>(
           rightText="1.45 - 2.00 PM"
           containerGap={width * 0.08}
           textWidth={width * 0.6}
+          backgroundColor={colors.BACKGROUND_COLOR_VARIANT.GREY}
         />
       </View>
     );

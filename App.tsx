@@ -34,7 +34,10 @@ import DetailSheet from "./src/modals/DetailSheet";
 const { fontScale, height, width, scale } = Dimensions.get("window");
 
 export default function App() {
+  // Bottomsheet refs
   const bottomSheetRef = useRef<BottomSheetMethods>(null);
+
+  // Pre-loading fonts
   const [fontsLoaded] = useFonts({
     RedHatDisplay_700Bold,
     RedHatDisplay_500Medium,
@@ -93,6 +96,7 @@ export default function App() {
             </View>
           </View>
 
+          {/* ========== CARDS ================= */}
           <View style={styles.cards}>
             <View style={styles.cardOne}>
               <View>
@@ -255,6 +259,8 @@ export default function App() {
 
           <StatusBar style="light" />
         </SafeAreaView>
+
+        {/* ========== BUTTOM SHEET ============ */}
         <CustomBottomSheet
           backgroundColor={colors.WHITE_TEXT}
           snapTo="91%"
